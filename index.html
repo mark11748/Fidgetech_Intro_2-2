@@ -10,26 +10,41 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="container">
-      <div class="row" id="TOP-BAR">
-        <div class="col-1-xs"></div>
-        <div class="col-10-xs text-center"><p>
-          [INSERT ADD HERE]
-        </p></div>
-        <div class="col-1-xs"></div>
-      </div>
-      <div class="row">
-        <div class="col-2-xs"></div>
-        <div class="col-8-xs">
-          <iframe src="">
-            <audio autoplay loop controls style="display:none;" src="Jackal S2 mix.ogg" type="audio/ogg">
-              Your browser does not support the audio tag.
-            </audio>
+    <embed type="audio/ogg" src="Jackal S2 mix.ogg" autostart loop  allow="autoplay" width="0" height="0">
 
+    <div class="container">
+
+      <div class="row" id="HEADER">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8 text-center">
+          <br>
+          <h3><strong>[INSERT ADD HERE]</strong></h3>
+          <br>
+        </div>
+        <div class="col-xs-2"></div>
+      </div>
+
+      <div class="row" id="MAIN">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+          <iframe src="">
+            <embed type="audio/ogg" src="Jackal S2 mix.ogg" autostart loop  allow="autoplay" width="0" height="0">
+              <!--
+                <audio autoplay loop controls style="display:none;" src="Jackal S2 mix.ogg" type="audio/ogg">
+                Your browser does not support the audio tag.
+                </audio>
+              -->
           </iframe>
         </div>
-        <div class="col-2-xs"></div>
+        <div class="col-xs-2"></div>
       </div>
+
+      <div class="row" id="FOOTER">
+        <div class="col-xs-12">
+          <br><br>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>

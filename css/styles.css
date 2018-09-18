@@ -1,11 +1,15 @@
 body {
   background-color: black;
 }
-#TOP-BAR {
-  min-height: 120px;
-}
-#TOP-BAR .col-10-xs {
+
+#HEADER .col-8-xs {
   color: lightblue;
+}
+#HEADER,#FOOTER {
+  min-height: 50px;
+}
+.row>* {
+  border: red solid .1em;
 }
 html body iframe {
   background-color: white;
