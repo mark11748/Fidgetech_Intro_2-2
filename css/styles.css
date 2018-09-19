@@ -1,18 +1,37 @@
 body {
   background-color: black;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+.container {
+  min-width: 100%;
+  margin: auto;
+  border: 0px;
+  padding:0px;
 }
 
-#HEADER .col-8-xs {
+#HEADER>.col-8-xs {
   color: lightblue;
 }
-#HEADER,#FOOTER {
-  min-height: 50px;
+#HEADER>*,#FOOTER>* {
+  min-height: 100px;
 }
-.row>* {
+#MAIN>*{
+  position: relative;
+  min-height: 600px;
+}
+#MAIN>.col-xs-8 {
+  padding: 0px;
+}
+.row-eq-height {
+  min-width: 800px;
+}
+.row-eq-height>* {
   border: red solid .1em;
 }
-html body iframe {
+ iframe {
   background-color: white;
-  height: 100%;
+  min-height: 540px;
   width: 100%;
 }
